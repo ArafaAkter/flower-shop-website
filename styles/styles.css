@@ -31,6 +31,7 @@ font-weight: 800;
     height: 800px;
     padding-top: 50px;
 }
+/* section 1 */
 .section-head{
     color: #272727;
     text-align: center;
@@ -51,20 +52,16 @@ font-weight: 800;
 .section1{
     padding: 50px;
 }
-banner-pic{
-    border-radius: 300px 300px 0px 0px;
-background: rgba(167, 33, 98, 0.15);
-}
 .banner-box{
     border-radius: 300px 300px 0px 0px;
-background: rgba(167, 33, 98, 0.15);
-width: 464px;
-height: 538px;
+    background: rgba(167, 33, 98, 0.15);
+    width: 464px;
+    height: 538px;
 }
 .img{
     width: 310px;
-height: 428px;
-padding: 20px;
+    height: 428px;
+    padding: 20px;
 
 }
 .banner-container{
@@ -91,4 +88,31 @@ padding: 20px;
     width: 1440px;
     height: 320px;
     align-items: center;
+}
+/* section 2 */
+.banner1{
+    display: flex;
+    justify-content: space-around;
+    background: rgba(229, 84, 115, 0.05);
+    margin-top: 150px;
+    margin-bottom: 150px;
+    padding: 50px;
+    align-items: center;
+}
+.colour{
+    font-size:60px;
+}
+.span-colour{
+    color: red;
+}
+.paragraph-colour{
+    font-size: 30px;
+    color: gray;
+}
+.sign-btn{
+    background: #E55473;
+    color: white;
+    padding: 20px 43px;
+    font-size: 20px;
+    border-radius: 8px;
 }
