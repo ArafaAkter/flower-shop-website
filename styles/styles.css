@@ -1,3 +1,103 @@
-p{
-    color: blue;
+.banner{
+    display: flex;
+    background: rgba(229, 84, 115, 0.10);
+    justify-content: space-around;
+    align-items: center;
+}
+.paragraph-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+.headding{
+    color: #272727;
+font-family: Lato;
+font-size: 80px;
+font-weight: 800;
+}
+.btn{
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    color: white;
+    font-size: 20px;
+    font-family: Lato;
+
+}
+.banner-pic{
+    width: 635px;
+    height: 800px;
+    padding-top: 50px;
+}
+.section-head{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+
+    
+}
+.section-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+   
+}
+.section1{
+    padding: 50px;
+}
+banner-pic{
+    border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
+}
+.banner-box{
+    border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
+width: 464px;
+height: 538px;
+}
+.img{
+    width: 310px;
+height: 428px;
+padding: 20px;
+
+}
+.banner-container{
+    display: flex;
+    gap: 15px;
+    padding: 30px;
+    
+}
+.section3{
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    width: 1440px;
+    height: 320px;
+    align-items: center;
+    p
+
+
+}
+.section3-img{
+    display: flex;
+    align-items: center;
+}
+.section3-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.banner-contant{
+    display: flex;
+    justify-content: space-around;
+}
+.section3{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
 }
