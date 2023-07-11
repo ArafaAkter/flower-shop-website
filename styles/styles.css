@@ -49,36 +49,44 @@ font-weight: 800;
     font-weight: 400;
    
 }
-.section1{
-    padding: 50px;
-}
-.banner-box{
-    border-radius: 300px 300px 0px 0px;
-    background: rgba(167, 33, 98, 0.15);
-    width: 464px;
-    height: 538px;
-}
-.img{
-    width: 310px;
-    height: 428px;
-    padding: 20px;
-
-}
-.banner-container{
+/* banner box */
+.featured-flower{
     display: flex;
-    gap: 15px;
-    padding: 30px;
+    justify-content: space-around;
     
 }
+ .flower1{
+    border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
+
+} 
+.flower2{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+.flower3{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+.our-featured{
+    margin-bottom: 100px;
+}
+.pink{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+
+    
+
+/* section 2 */
 .section3-container{
     display: flex;
     justify-content: space-around;
+    
 }
-
-.banner-contant{
-    display: flex;
-    justify-content: space-around;
-}
+/* section 2 */
 .section3{
     display: flex;
     justify-content: space-around;
@@ -89,7 +97,6 @@ font-weight: 800;
     height: 320px;
     align-items: center;
 }
-/* section 2 */
 .banner1{
     display: flex;
     justify-content: space-around;
@@ -150,15 +157,18 @@ font-weight: 800;
    height: 449px;
    
 }
+.deals h1{
+    padding-top: 50px;
+}
 input{
-    padding: 20px 100px;
+    padding: 12px 150px;
 }
 .subscribe{
     background: red;
     color: white;
-    padding: 20px 20px;
+    padding: 10px 25px;
     font-size: 20px;
-    /* border-radius: 8px; */
+    border-radius: 8px;
 }
 /* footer */
 .footer{
