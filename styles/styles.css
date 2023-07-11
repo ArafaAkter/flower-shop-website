@@ -116,3 +116,18 @@ font-weight: 800;
     font-size: 20px;
     border-radius: 8px;
 }
+/* instagram section */
+.insta-heading{
+    text-align: center;
+    font-size: 50px;
+}
+.insta-paragraph{
+    text-align: center;
+    font-size: 25px;
+    color: gray;
+}
+.flowers{
+    align-items: center;
+    padding: 60px;
+    gap: 20px;
+}
