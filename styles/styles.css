@@ -73,20 +73,6 @@ padding: 20px;
     padding: 30px;
     
 }
-.section3{
-    border-radius: 8px;
-    background: rgba(39, 39, 39, 0.05);
-    width: 1440px;
-    height: 320px;
-    align-items: center;
-    p
-
-
-}
-.section3-img{
-    display: flex;
-    align-items: center;
-}
 .section3-container{
     display: flex;
     justify-content: space-around;
@@ -100,4 +86,9 @@ padding: 20px;
     display: flex;
     justify-content: space-around;
     text-align: center;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    width: 1440px;
+    height: 320px;
+    align-items: center;
 }
